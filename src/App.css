@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.home{
+  /* background-image: url("https://img.freepik.com/free-vector/grunge-watercolor-background-using-pastel-colours_1048-6530.jpg?t=st=1717046375~exp=1717049975~hmac=a5600f8ec3ec0080fedfa802e3de52f932ba467595c15bf6ce3022819c60fa92&w=740"); */
+width: 1400px;
+height: 900px;
+background-size: cover;
+display: flex;
+}
+.main{
+  width: 200px;
+  height: 100px;
+  padding: 70px;
+  
+}
+.main1{
+  width: 500px;
+  height: 500px;
+ margin-top: 70px;
+ padding-left: 350px;
+}
+.about{
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-background-3d-paper-style_23-2148403777.jpg?t=st=1717130162~exp=1717133762~hmac=f514a8319a3dae21a5f6da8838e00f9bf8a14fa55b6127e918a4b1629e1183ff&w=996");
+  width: 1400px;
+  height: 900px;
+  background-size: cover;
+  padding: 70px;
+}
+.btn{
+  width: 150px;
+  height: 40px;
+  background-color: darkgreen;
+  border-radius: 5px;
+}
+.contact{
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-background-3d-paper-style_23-2148403777.jpg?t=st=1717130162~exp=1717133762~hmac=f514a8319a3dae21a5f6da8838e00f9bf8a14fa55b6127e918a4b1629e1183ff&w=996");
+  width: 1400px;
+  height: 900px;
+  background-size: cover;
+  padding: 70px;
+  text-align: center;
+}
+#phone{
+  width: 250px;
+height: 30px;
+border-radius: 5px;
+}
+#email{
+  width: 250px;
+height: 30px;
+border-radius: 5px;
+}
+textarea{
+  width: 250px;
+height: 30px;
+border-radius: 5px;
+}
